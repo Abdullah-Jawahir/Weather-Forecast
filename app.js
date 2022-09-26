@@ -109,24 +109,24 @@ function displayWeather(anyData) {
     // let weatherIcon =  `http://openweathermap.org/img/wn/${weather[0].icon}@2x.png`;
     let weatherIcons = {
 
-        '01d': '../images/clear-day.svg',
-        '01n': '../images/clear-night.svg',
-        '02d': '../images/few-clouds-day.svg',
-        '02n': '../images/few-clouds-night.svg',
-        '03d': '../images/scattered-clouds-day.svg',
-        '03n': '../images/scattered-clouds-night.svg',
-        '04d': '../images/broken-clouds.svg',
-        '04n': '../images/broken-clouds.svg',
-        '09d': '../images/rain-day.svg',
-        '09n': '../images/rain-night.svg',
-        '10d': '../images/shower-rain-day.svg',
-        '10n': '../images/shower-rain-night.svg',
-        '11d': '../images/thunderstorm.svg',
-        '11n': '../images/thunderstorm.svg',
-        '13d': '../images/snow-day.svg',
-        '13n': '../images/snow-night.svg',
-        '50d': '../images/mist.svg',
-        '50n': '../images/mist.svg'
+        '01d': './images/clear-day.svg',
+        '01n': './images/clear-night.svg',
+        '02d': './images/few-clouds-day.svg',
+        '02n': './images/few-clouds-night.svg',
+        '03d': './images/scattered-clouds-day.svg',
+        '03n': './images/scattered-clouds-night.svg',
+        '04d': './images/broken-clouds.svg',
+        '04n': './images/broken-clouds.svg',
+        '09d': './images/rain-day.svg',
+        '09n': './images/rain-night.svg',
+        '10d': './images/shower-rain-day.svg',
+        '10n': './images/shower-rain-night.svg',
+        '11d': './images/thunderstorm.svg',
+        '11n': './images/thunderstorm.svg',
+        '13d': './images/snow-day.svg',
+        '13n': './images/snow-night.svg',
+        '50d': './images/mist.svg',
+        '50n': './images/mist.svg'
     };
 
     // display the info on the UI
