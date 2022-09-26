@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form id="user-form">
+            <input type="text" name="user-input" id="user-input" placeholder="Search any city" autocomplete="off">
+            <label for="user-input" id="alert-note">Please type any city name!</label>
+            <button type="submit">search</button>
+        </form>
+
+        <div id="wrapper">
+            <div class="card">
+                <div class="pin-msg">Example</div>
+                <div class="temperature-info">
+                    
+                    <p class="degree">
+                        27<sup class="deg-unit">°C</sup>
+                    </p>
+                    
+                    <div class="image">
+                        <img src="./Images/clear-day.svg" alt="cloud image">
+                    </div>
+
+                    <!-- <i class="fa fa-cloud"></i> -->
+                    
+                    <p class="temp-desc">
+                        overcast clouds
+                    </p>
+                </div>
+
+                <div class="city-details">
+                    <p class="city-name">Nawalapitya<sup>LK</sup></p>
+                    <p class="date">December 13</p>
+                    <p class="year">2021</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
